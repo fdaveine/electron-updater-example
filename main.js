@@ -60,7 +60,9 @@ function sendStatusToWindow(text) {
 }
 function createDefaultWindow() {
   win = new BrowserWindow({
-    nodeIntegration: true,
+    webPreferences: {
+      nodeIntegration: true
+    }
   });
   win.webContents.openDevTools();
   win.on('closed', () => {
