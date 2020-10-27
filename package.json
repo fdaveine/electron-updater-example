@@ -1,6 +1,6 @@
 {
   "name": "electron-updater-example",
-  "version": "0.7.6",
+  "version": "0.7.7",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
@@ -16,7 +16,7 @@
     "electron-updater": "^4.2.0"
   },
   "build": {
-    "appId": "com.github.iffy.electronupdaterexample",
+    "appId": "com.github.fdaveine.electronupdaterexample",
     "linux": {
       "icon": "build/icon.png",
       "category": "Utility",
