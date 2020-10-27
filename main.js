@@ -62,7 +62,8 @@ function createDefaultWindow() {
   win = new BrowserWindow({
     webPreferences: {
       nodeIntegration: true
-    }
+    },
+    icon: path.join(__dirname, 'build/icon.png')
   });
   win.webContents.openDevTools();
   win.on('closed', () => {
