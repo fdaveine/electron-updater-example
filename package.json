@@ -18,6 +18,7 @@
   "build": {
     "appId": "com.github.iffy.electronupdaterexample",
     "linux": {
+      "icon": "build/icon.png",
       "category": "Utility",
       "target": "AppImage"
     },
